@@ -15,7 +15,20 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 ```
 
 # 🐍 Usando o programa
-**Para rodar este programa, você precisará abrir o repositório na sua IDE e no próprio terminal, digitar:**
+
+**Abra o repositório na sua IDE e, em seguida, mova os arquivos 'client_secret.json' e 'token.json' para fora da pasta.**
+
+* Antes de mover
+
+![image](https://github.com/cauacodigos/Desafio-Tunt.Rocks-2024/assets/131932004/d2e4f681-2e23-44c5-81e6-89a5f21f4665)
+
+* Depois de mover
+
+![image](https://github.com/cauacodigos/Desafio-Tunt.Rocks-2024/assets/131932004/ea29a58b-1181-4087-bd34-140ee33bda32)
+
+
+
+**Após isso, vá ao terminal da IDE e nele digite:**
 ```
 python main.py
 ```

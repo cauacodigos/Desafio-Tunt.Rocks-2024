@@ -6,6 +6,9 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
+script_directory = os.path.dirname(os.path.abspath(__file__))
+
+credentials_path = os.path.join(script_directory, "credentials.json")
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 

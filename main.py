@@ -19,7 +19,7 @@ def main():
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            client_secret_path = os.path.join(os.getcwd(), 'credentials', 'client_secret.json')
+            client_secret_path = os.getenv('CLIENT_SECRET_PATH')
             flow = InstalledAppFlow.from_client_secrets_file(
                 client_secret_path, SCOPES
             )

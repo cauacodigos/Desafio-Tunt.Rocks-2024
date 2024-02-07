@@ -33,11 +33,21 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 
 **8. Volte às credenciais e crie um ID do Cliente OAuth, criando um "App para computador".**
 
-**9. Após a criação, baixe o JSON do Cliente OAuth e renomei-o para "credentials.json"**
+**9. Na área de "Domínios autorizados", coloque estes 3 links, para evitar problemas:**
 
-**10. Faça o download deste repositório e arraste o "credentials.json" para a mesma pasta do repositório após extraí-lo.**
+```
+local.host
+google.com
+developers.google
+localhost.com
+```
 
-**11. Abra o repositório na sua IDE e no seu próprio terminal, digite:**
+
+**10. Após a criação, baixe o JSON do Cliente OAuth e renomei-o para "credentials.json"**
+
+**11. Faça o download deste repositório e arraste o "credentials.json" para o mesmo local de trabalho da IDE, porém fora da pasta após extraí-lo.**
+
+**12. Abra o repositório na sua IDE e no seu próprio terminal, digite:**
 ```
 python main.py
 ```
